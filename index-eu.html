@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="skills-item"><a href="#about-me" class="nav-link main-font">About me</a></li>
+                <li class="skills-item"><a href="#skills" class="nav-link main-font">Skills</a></li>
+                <li class="skills-item"><a href="#portfolio" class="nav-link main-font">Portfolio</a></li>
+                <li class="skills-item"><a href="#order" class="nav-link main-font">Order</a></li>
+                <li class="skills-item"><a href="#contacts" class="nav-link main-font">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="desc-wrapper">
+            <h1 class="myName">Koretsky<br> Eugene</h1>
+            <p class="myDescription main-font">Web-designer,<br>35 years old,<br>Saint-Petersburg</p>
+            <div class="change">
+                <a class="change-link" href="index-ru.html">ru </a><span class="main-font">|</span>
+                <a href="#" class="change-link current-link">eng</a>
+            </div>
+        </div>
+        <img class="my-photo" src="./img/foto12.png" alt="Моё фото">
+        <img class="my-photo-mobile"  src="./img/foto13.png" alt="Моё фото">
+        <img class="my-photo-375"  src="./img/foto14.png" alt="Моё фото">
+    </header>
+    <div class="about-me" id="about-me">
+        <h2 class="about-me-title block-title">About me</h2>
+        <p class="whoim main-font">Hi, I'm Eugene, - junior web-designer from Saint-Petersburg. I'm interested in design and everything connected with it.</p>
+        <p class="whoim main-font">I believe that I know HTML, CSS and JavaScript well.</p>
+        <p class="whoim main-font">Ready to take on the implementation of simple projects for good people. And for the recommendation, a bonus to your karma. :)</p>
+    </div>
+    <div class="skills-block" id="skills">
+        <h2 class="skills-title block-title">Skills</h2>
+        <div class="graphic">
+            <div>
+                <figure class="figure">
+                    <img class="logo" src="./img/PS.png" alt="Фотошоп" width="90px" height="90px">
+                    <figcaption class="main-font">Photoshop</figcaption>
+                </figure>
+                <ul class="rate-list">
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                </ul>
+            </div>
+            <div>
+                <figure class="figure">
+                    <img class="logo" src="./img/AI.png" alt="Иллюстратор" width="90px" height="90px">
+                    <figcaption class="main-font">Illustrator</figcaption>
+                </figure>
+                <ul class="rate-list">
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                </ul>
+            </div>
+            <div>
+                <figure class="figure">
+                    <img class="logo corel" src="./img/Corel.png" alt="Корел" width="90px" height="90px">
+                    <figcaption class="main-font">CorelDraw</figcaption>
+                </figure>
+                <ul class="rate-list">
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                </ul>
+            </div>
+            <div>
+                <figure class="figure">
+                    <img class="logo figma" src="./img/figma-1.png" alt="" width="90px" height="90px">
+                    <figcaption class="main-font">Figma</figcaption>
+                </figure>
+                <ul class="rate-list">
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="web">
+            <ul class="skills-list">
+                <li class="skills-item">
+                    <h4>HTML</h4>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+                <li class="skills-item">
+                    <h4>CSS</h4>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+                <li class="skills-item">
+                    <h4>JavaScript</h4>
+                    <span class="bar"><span class="js"></span></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="portfolio-block">
+        <h2 class="block-title" id="portfolio">Portfolio</h2>
+        <p class="main-font">soon...</p>
+    </div>
+    <div class="order-block" id="order">
+        <h2 class="block-title">Do you want a website?</h2>
+        <p class="main-font">Fill out the short form and I will contact you.</p>
+        <form  class="form" action="#" method="POST" name="order-form">
+            <input class="input-text input-1" type="text" name="your-name" placeholder="Your name" required>
+            <input class="input-text input-2" type="text" name="your-email" placeholder="Your e-mail" required>
+            <textarea name="your-message" name="your-message" placeholder="Your message" required></textarea>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <footer class="contacts-block">
+         <h2 class="contacts-title block-title" id="contacts">Contacts</h2>
+         <p class="whant-you-know main-font">Want to know more or just chat? You are welcome!</p>
+         <form class="mail" action="mailto:J.Gureva@outlook.com">
+             <button class="send-message main-font">Send message</button>
+         </form>
+         <div class="social-container">
+             <a class="social-link inst" href="#" title="Instagram"></a>
+             <a class="social-link vk" href="#" title="vkontakte"></a>
+             <a class="social-link telegram" href="#" title="telegram"></a>
+         </div>
+    </footer>
+</body>
+</html>

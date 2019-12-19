@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Портфолио</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="skills-item"><a href="#about-me" class="nav-link main-font">Обо мне</a></li>
+                <li class="skills-item"><a href="#skills" class="nav-link main-font">Навыки</a></li>
+                <li class="skills-item"><a href="#portfolio" class="nav-link main-font">Портфолио</a></li>
+                <li class="skills-item"><a href="#order" class="nav-link main-font">Заказать</a></li>
+                <li class="skills-item"><a href="#contacts" class="nav-link main-font">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="desc-wrapper">
+            <h1 class="myName">Корецкий<br>Евгений</h1>
+            <p class="myDescription main-font">Веб-дизайнер,<br>35 лет,<br>Санкт-Петербург</p>
+            <div class="change">
+                <a class="change-link current-link" href="#">ru </a><span class="main-font">|</span>
+                <a href="index-eu.html" class="change-link">eng</a>
+            </div>
+        </div>
+        <img class="my-photo" src="./img/foto12.png" alt="Моё фото">
+        <img class="my-photo-mobile"  src="./img/foto13.png" alt="Моё фото">
+        <img class="my-photo-375"  src="./img/foto14.png" alt="Моё фото">
+    </header>
+    <div class="about-me-container">
+        <div class="about-me" id="about-me">
+            <h2 class="about-me-title block-title">Обо мне</h2>
+            <p class="whoim main-font">Привет, я Евгений,- джуниор веб-дизайнер из Санкт-Петербурга. Мне интересен дизайн и всё, что с ним связано.</p>
+            <p class="whoim main-font">Считаю, что достаточно хорошо знаю HTML, CSS и основы JavaScript'а.</p>
+            <p class="whoim main-font">Готов взяться за реализацию несложных проектов для хороших людей. А за рекомендацию бонус вам в карму. :)</p>
+        </div>
+    </div>
+    <div class="skills-block" id="skills">
+        <h2 class="skills-title block-title">Навыки</h2>
+        <div class="graphic">
+            <div>
+                <figure class="figure">
+                    <img class="logo" src="./img/PS.png" alt="Фотошоп" width="90px" height="90px">
+                    <figcaption class="main-font">Photoshop</figcaption>
+                </figure>
+                <ul class="rate-list">
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                </ul>
+            </div>
+            <div>
+                <figure class="figure">
+                    <img class="logo" src="./img/AI.png" alt="Иллюстратор" width="90px" height="90px">
+                    <figcaption class="main-font">Illustrator</figcaption>
+                </figure>
+                <ul class="rate-list">
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                </ul>
+            </div>
+            <div>
+                <figure class="figure">
+                    <img class="logo corel" src="./img/Corel.png" alt="Корел" width="90px" height="90px">
+                    <figcaption class="main-font">CorelDraw</figcaption>
+                </figure>
+                <ul class="rate-list">
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                </ul>
+            </div>
+            <div>
+                <figure class="figure">
+                    <img class="logo figma" src="./img/figma-1.png" alt="" width="90px" height="90px">
+                    <figcaption class="main-font">Figma</figcaption>
+                </figure>
+                <ul class="rate-list">
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item full-star"></li>
+                    <li class="rate-item"></li>
+                    <li class="rate-item"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="web">
+            <ul class="skills-list">
+                <li class="skills-item">
+                    <h4>HTML</h4>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+                <li class="skills-item">
+                    <h4>CSS</h4>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+                <li class="skills-item">
+                    <h4>JavaScript</h4>
+                    <span class="bar"><span class="js"></span></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="portfolio-block">
+        <h2 class="block-title" id="portfolio">Портфолио</h2>
+        <p class="main-font">Скоро...</p>
+    </div>
+    <div class="order-block" id="order">
+        <h2 class="block-title">Хотите себе веб-сайт?</h2>
+        <p class="main-font">Заполните небольшую форму и я с вами свяжусь.</p>
+        <form  class="form" action="#" method="POST" name="order-form">
+            <input class="input-text input-1" type="text" name="your-name" placeholder="Ваше имя" required>
+            <input class="input-text input-2" type="text" name="your-email" placeholder="Ваш e-mail" required>
+            <textarea name="your-message" name="your-message" placeholder="Ваше сообщение" required></textarea>
+            <input type="reset" value="Сбросить">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+    <footer class="contacts-block">
+         <h2 class="contacts-title block-title" id="contacts">Контакты</h2>
+         <p class="whant-you-know main-font">Хотите узнать больше или просто пообщаться? Добро пожаловать!</p>
+         <form class="mail" action="mailto:J.Gureva@outlook.com">
+             <button class="send-message main-font">Связаться</button>
+         </form>
+         <div class="social-container">
+             <a class="social-link inst" href="https://www.instagram.com/invites/contact/?i=11ra4i20403pq&utm_content=x246vn"></a>
+             <a class="social-link vk" href="#"></a>
+             <a class="social-link telegram" href="https://t.me/EKoretsky"></a>
+         </div>
+    </footer>
+</body>
+</html>
