@@ -1,2 +1,3 @@
-# EKoretsky.github.io
-myProfile
+This is my profile.
+
+Это мой небольшой сайт-профайл, постороенный полностью c использованием grid сетки
