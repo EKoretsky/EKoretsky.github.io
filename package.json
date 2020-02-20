@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "author": "E.Koretsky"
+  "author": "E.Koretsky",
+  "devDependencies": {
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6"
+  }
 }
