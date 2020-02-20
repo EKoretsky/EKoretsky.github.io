@@ -1,0 +1,26 @@
+block variables
+  - let lang = "ru"
+  - let title = "Portfolio"
+  - let keywords = "портфолио, обо мне, junior, вёрстка, мало опыта"
+  - let description = "Небольшой сайт визитка с портфолио"
+
+html(lang=lang)
+block mixins
+  include path to mixins.pug
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    meta(name="keywords" content=keywords)
+    meta(name="description" content=description)
+    link(rel="shortcut icon" href="path to favicon" type="image/png")
+    title #{title}
+  body
+    block header
+    include path to header.pug
+
+    block main
+    include path to main.pug
+
+    block footer
+    include path to footer.pug
