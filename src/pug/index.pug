@@ -1,9 +1,3 @@
-block variables
-  - let lang = "ru"
-  - let title = "Portfolio"
-  - let keywords = "портфолио, обо мне, junior, вёрстка, мало опыта"
-  - let description = "Небольшой сайт визитка с портфолио"
-
 html(lang=lang)
   head
     meta(charset="UTF-8")
@@ -15,10 +9,10 @@ html(lang=lang)
     title #{title}
   body
     block header
-    include header.pug
+    include ./includes/header.pug
 
     block main
-    include main.pug
+    include ./includes/main.pug
 
     block footer
-    include footer.pug
+    include ./includes/footer.pug
