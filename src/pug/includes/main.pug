@@ -10,67 +10,81 @@ div.about-me-container
       | Готов взяться за реализацию несложных проектов для хороших людей. А за рекомендацию бонус вам в
       | карму. :)
 
-  div.skills-block
-    h2.skills-title.block-title Навыки
-    div.graphic
+div.skills-block
+  h2.skills-title.block-title Навыки
+  div.graphic
 
-      div
-        figure.figure
-          img.logo(src="./img/PS.png" alt="Фотошоп" width="90px" height="90px")
-          figcaption.main-font Photoshop
-        ul.rate-list
-          li.rate-item.full-star
-          li.rate-item.full-star
-          li.rate-item
-          li.rate-item
-          li.rate-item
+    div
+      figure.figure
+        img.logo(src="./img/PS.png" alt="Фотошоп" width="90px" height="90px")
+        figcaption.main-font Photoshop
+      ul.rate-list
+        li.rate-item.full-star
+        li.rate-item.full-star
+        li.rate-item
+        li.rate-item
+        li.rate-item
 
-      div
-        figure.figure
-          img.logo(src="./img/AI.png" alt="Иллюстратор" width="90px" height="90px")
-          figcaption.main-font Illustrator
-        ul.rate-list
-          li.rate-item.full-star
-          li.rate-item.full-star
-          li.rate-item.full-star
-          li.rate-item
-          li.rate-item
+    div
+      figure.figure
+        img.logo(src="./img/AI.png" alt="Иллюстратор" width="90px" height="90px")
+        figcaption.main-font Illustrator
+      ul.rate-list
+        li.rate-item.full-star
+        li.rate-item.full-star
+        li.rate-item.full-star
+        li.rate-item
+        li.rate-item
 
-      div
-        figure.figure
-          img.logo(src="./img/Corel.png" alt="Корел" width="90px" height="90px")
-          figcaption.main-font CorelDraw
-        ul.rate-list
-          li.rate-item.full-star
-          li.rate-item.full-star
-          li.rate-item
-          li.rate-item
-          li.rate-item
+    div
+      figure.figure
+        img.logo(src="./img/Corel.png" alt="Корел" width="90px" height="90px")
+        figcaption.main-font CorelDraw
+      ul.rate-list
+        li.rate-item.full-star
+        li.rate-item.full-star
+        li.rate-item
+        li.rate-item
+        li.rate-item
 
-      div
-        figure.figure
-          img.logo(src="./img/figma-1.png" alt="" width="90px" height="90px")
-          figcaption.main-font Figma
-        ul.rate-list
-          li.rate-item.full-star
-          li.rate-item.full-star
-          li.rate-item.full-star
-          li.rate-item
-          li.rate-item
+    div
+      figure.figure
+        img.logo(src="./img/figma-1.png" alt="" width="90px" height="90px")
+        figcaption.main-font Figma
+      ul.rate-list
+        li.rate-item.full-star
+        li.rate-item.full-star
+        li.rate-item.full-star
+        li.rate-item
+        li.rate-item
 
-    div.web
-      ul.skills-list
-        li.skills-item
-          h4 HTML
-          span.bar
-            span.html
+  div.web
+    ul.skills-list
+      li.skills-item
+        h4 HTML
+        span.bar
+          span.html
 
-        li.skills-item
-          h4 CSS
-          span.bar
-            span.css
+      li.skills-item
+        h4 CSS
+        span.bar
+          span.css
 
-        li.skills-item
-          h4 JavaScript
-          span.bar
-            span.js
+      li.skills-item
+        h4 JavaScript
+        span.bar
+          span.js
+
+div.portfolio-block
+  h2.block-title#portfolio Портфолио
+  p.main-font Скоро...
+
+div.order-block#order
+  h2.block-title Хотите себе веб-сайт?
+  p.main-font Заполните небольшую форму и я с вами свяжусь.
+  form.form(action="#" method="POST" name="order-form")
+    input.input-text.input-1(type="text" name="your-name" placeholder="Ваше имя" required)
+    input.input-text.input-2(type="text" name="your-email" placeholder="Ваш e-mail" required)
+    textarea(name="your-message" placeholder="Ваше сообщение" required)
+    input(type="reset" value="Сбросить")
+    input(type="submit" value="Отправить")
